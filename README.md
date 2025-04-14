@@ -1,14 +1,23 @@
-# Responsive Restaurant Website
-## [Watch it on youtube](https://youtu.be/5RIFrZEjURA)
-### Responsive Restaurant Website
+JOUD Grill Website
 
-- Responsive Restaurant Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Includes a dark & light theme.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+This project is a front-end redesign created by myself and Ahlam Azouir for JOUD Grill, a fast-food and grill restaurant based in Fes, Morocco. Developed in the context of our Digital Marketing class, the website emphasizes the authentic and fiery identity of JOUD.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+Features
+Responsive and modern design
 
-![preview img](/preview.png)
+Clear structure highlighting services, menu, and contact details
+
+Interactive elements enhancing user engagement
+
+Technologies Used :
+
+HTML
+CSS
+JavaScript
+
+Contributors: 
+Me
+Ahlam Azouir
+
+Context
+Digital Marketing Course Project at Al Akhawayn University.
