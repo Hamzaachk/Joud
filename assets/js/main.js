@@ -105,3 +105,26 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+
+// Select modal elements
+const deliveryLink = document.getElementById('footer-delivery');
+const modal = document.getElementById('delivery-modal');
+const closeModal = document.getElementById('close-delivery-modal');
+
+// Show modal on click
+deliveryLink.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent default link behavior
+  modal.style.display = "block";
+});
+
+// Close modal on click of close button
+closeModal.addEventListener('click', function() {
+  modal.style.display = "none";
+});
+
+// Close modal if user clicks outside modal content
+window.addEventListener('click', function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+});

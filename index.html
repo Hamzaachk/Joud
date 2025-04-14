@@ -435,15 +435,15 @@
                     </div>
                 </div>
 
-                <div class="footer__content">
+                <div class="footer__content"> 
                     <h3 class="footer__title">Services</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Delivery</a></li>
-                        <li><a href="#" class="footer__link">Pricing</a></li>
-                        <li><a href="#" class="footer__link">Fast food</a></li>
-                        <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                      <li><a href="#" class="footer__link" id="footer-delivery">Delivery</a></li>
+                      <li><a href="#" class="footer__link">Pricing</a></li>
+                      <li><a href="#" class="footer__link">Fast food</a></li>
+                      <li><a href="#" class="footer__link">Reserve your spot</a></li>
                     </ul>
-                </div>
+                  </div>
 
                 <div class="footer__content">
                     <h3 class="footer__title">Information</h3>
@@ -459,7 +459,12 @@
                     <h3 class="footer__title">Adress</h3>
                     <ul>
                         <li>Fes - Morocco</li>
-                        <li>29 Av St Louis Saada</li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/Joud/@34.0243643,-5.00787,17z/data=!3m1!4b1!4m6!3m5!1s0xd9f8b03c2120655:0xfb1defb8aa4e8d03!8m2!3d34.0243643!4d-5.0052897!16s%2Fg%2F11st67g3fc?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+                               target="_blank" class="footer__link">
+                               29 Av St Louis Saada
+                            </a>
+                          </li>
                         <li>05-356-93480</li>
                         <li>joudgrill@gmail.com</li>
                     </ul>
@@ -474,5 +479,17 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        <!-- Modal structure -->
+    <div id="delivery-modal" class="modal">
+        <div class="modal-content">
+        <span id="close-delivery-modal" class="modal-close">&times;</span>
+        <h2>Delivery via Glovo</h2>
+        <p>
+            JOUD Grill partners with <strong>Glovo</strong> to deliver your favorite dishes right to your door. 
+            Enjoy fast, fresh, and convenient service!
+        </p>
+        <a href="https://glovoapp.com/" target="_blank" class="button">Order on Glovo</a>
+        </div>
+    </div>
     </body>
 </html>
